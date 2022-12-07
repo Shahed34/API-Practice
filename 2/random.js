@@ -12,7 +12,7 @@ const displayData=randomuser=>{
     for(let buddy of userlog){
         console.log(buddy.user.email);
         const p=document.createElement('p');
-        p.innerText=buddy.user.email;
+        p.innerText=   `Email ID: ${buddy.user.email}`;
         randomsDiv.appendChild(p);
     }
 }
